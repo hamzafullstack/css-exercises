@@ -1,1 +1,12 @@
-/* Add CSS Styling */
+.click-me {
+    background-color: rgba(0, 0, 0, 0.904);
+    color: rgba(255, 255, 255, 0.87);
+}
+/* grouping here  */
+.click-me, .no-click-me {
+    font-size: 28px;
+    font-family: helvetica, 'Times New Roman', sans-serif;
+}
+.no-click-me {
+    background-color: rgb(255, 255, 0);
+}
