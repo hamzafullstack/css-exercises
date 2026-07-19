@@ -23,10 +23,11 @@ body {
   font-weight: bold;
 } 
 
-.button {
+.button #confirm-button {
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   font-size: 20px;
+  background-color: green;
 }
 
 .child {
@@ -35,8 +36,9 @@ body {
   font-size: 14px;
 }
 
-div.text {
+div.text .child {
   color: rgb(0, 0, 0);
   font-size: 22px;
   font-weight: 100;
+  font-weight: bold;
 }
