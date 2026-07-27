@@ -24,3 +24,49 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+/* solution is here */
+body {
+  display: flex;
+  flex-direction: column;
+}
+ul {
+  list-style-type: none;
+}
+li a{
+  text-decoration: none;
+}
+.header {
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 8px;
+}
+.header .left-links,
+.header .right-links{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  gap: 5px;
+  flex-grow: 1;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  background-color: #eeeeee;
+}
+.footer .right-links,
+.footer .left-links{
+  display: flex;
+  align-items: flex-end;
+  gap: 8px;
+}
